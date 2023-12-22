@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+#menu-btn,#menu-title,#progress-btns{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+#page-wrap{
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-wrap #text{
+    width: 50%;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+
+#opt-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#opt-btns .btn , #progress-btns button{
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#opt-btns .btn:hover , #menu-btn:hover, #progress-btns button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+#page-nm{
+    visibility: hidden;
+}
